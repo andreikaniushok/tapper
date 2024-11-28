@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "newandroid",
-    "slug": "newandroid",
+    "name": "Tapper",
+    "slug": "tapper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +18,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "package": "com.kaniushok.tapper"
+      },
+      "package": "com.kaniushok.tapper"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0122978d-1de7-493d-83b3-6d488896d6df"
+      }
     }
   }
 }
